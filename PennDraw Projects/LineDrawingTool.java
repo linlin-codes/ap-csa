@@ -25,5 +25,3 @@ PennDraw.setPenColor(black);}
 }
 PennDraw.advance();
 }
-}
-}
