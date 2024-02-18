@@ -1,3 +1,6 @@
+/**Christian Lin
+*/
+
 public class LineDrawingTool {
 
 public static void main(String[] args) {
