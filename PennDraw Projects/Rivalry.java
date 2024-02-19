@@ -20,7 +20,7 @@ while (red < 9 && blue < 9) {
   PennDraw.line(0.1, 0.1, 0.1, 0.9);
   PennDraw.line(0.9, 0.1, 0.9, 0.9);
   PennDraw.picture(red/10, 0.2, "Penn.png", 150, 150);
-  PennDraw.picture(blue/10, 0.2, "Drexle.png", 150, 150);
+  PennDraw.picture(blue/10, 0.2, "Drexel.png", 150, 150);
 
   red += Math.random()*0.56;
   blue += Math.random()*0.44;
@@ -42,7 +42,7 @@ if (rivialOneWins == true) {
   PennDraw.text(0.5, 0.5, "Penn Wins!");
 }
 else if (rivialTwoWins == true) {
-  PennDraw.text(0.5, 0.5, "Drexle Wins!");
+  PennDraw.text(0.5, 0.5, "Drexel Wins!");
 else {
   PennDraw.text(0.5, 0.5, "Tie!");
 }
